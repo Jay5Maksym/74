@@ -1,100 +1,92 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('pexels-camcasey-1157255.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-  }
-  
-  header {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2em;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  main {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    border-bottom: 2px solid white;
-    padding-bottom: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .tickets {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .tickets div {
-    width: 30%;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .tickets h3 {
-    text-align: center;
-    font-size: 1.2em;
-  }
-  
-  footer {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer section {
-    margin-bottom: 20px;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  footer ul li {
-    margin: 5px 0;
-  }
-  
-  footer ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  footer h2 {
-    font-size: 1.2em;
-  }
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 18px; /* Збільшений базовий розмір шрифту */
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+  margin: 20px 0;
+  font-size: 2.5em; /* Збільшений розмір заголовка */
+}
+
+/* Контейнер для кнопок каталогу */
+.catalog-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  padding: 0;
+  width: 100%; /* Займає всю ширину */
+}
+
+/* Стилі для кнопок */
+button {
+  background-color: #4a4a4a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px; /* Збільшений розмір кнопок */
+  font-size: 1.2em; /* Збільшений розмір шрифту кнопок */
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Стилі для зображення */
+img {
+  display: block;
+  max-width: 90%; /* Максимальна ширина зображення */
+  max-height: 60vh; /* Максимальна висота зображення */
+  width: auto; /* Автоматичне визначення ширини */
+  height: auto; /* Автоматичне визначення висоти */
+  object-fit: contain; /* Зберігає пропорції без обрізання */
+  margin: 20px auto; /* Вирівнювання по центру */
+}
+
+/* Стилі для параграфів */
+p {
+  margin: 10px 0;
+  line-height: 1.8; /* Збільшений міжрядковий інтервал */
+  text-align: center;
+  font-size: 1.2em; /* Збільшений розмір шрифту для тексту */
+}
+
+/* Стилі для посилань */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 1.2em; /* Збільшений розмір шрифту для посилань */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.full-width-background {
+  width: 100%;
+  background-image: url('./img2/black-background-with-yellow-lines-black-background_480962-39644.avif');
+  background-size: cover; /* розтягнути зображення по ширині та висоті */
+  background-position: center; /* вирівнювання фону по центру */
+  background-repeat: no-repeat; /* запобігає повторенню фонової картинки */
+}
